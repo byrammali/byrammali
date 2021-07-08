@@ -31,6 +31,13 @@ header{
 .projects{
   background: #0081a7ff;
 }
+.projects a {
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
 
 /* Work Experience
 ---------------------------------*/
