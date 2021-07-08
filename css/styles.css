@@ -1,4 +1,26 @@
+/* SCSS HEX
+rich-black-fogra-29: #02111bff;
+powder-blue: #bee9e8ff;
+maximum-green: #679436ff;
+cadet: #5d737eff;
+cg-blue: #0081a7ff;
+*/
+/* Global styles
+---------------------------------*/
 img{
-  width: 300px;
-
+  width: 300px; /*Declaration*/
 }
+body{
+  color: #5d737eff;
+}
+
+/* Profile
+---------------------------------*/
+
+
+/* Projects
+---------------------------------*/
+
+
+/* Work Experience
+---------------------------------*/
