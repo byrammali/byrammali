@@ -22,7 +22,19 @@ header{
 
 /* Projects
 ---------------------------------*/
-
+.projects{
+  background: #0081a7ff;
+}
 
 /* Work Experience
 ---------------------------------*/
+.work_experience:{
+  background: #02111bff;
+}
+
+
+
+/*Contact info*/
+footer{
+  background:#5d737eff;
+}
