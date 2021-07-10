@@ -7,8 +7,11 @@ cg-blue: #0081a7ff;
 */
 /* Global styles
 ---------------------------------*/
-img{
-  width: 300px; /*Declaration*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
 }
 body{
   color: #07070A;
@@ -38,7 +41,8 @@ h1,h2 {
   margin: 0;
 }
 .content-wrap{
-  width: 800px;
+  max-width: 800px;
+  width: 85%;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -47,6 +51,7 @@ h1,h2 {
 ---------------------------------*/
 header{
   background: #bee9e8ff;
+  text-align: center;
 }
 
 /* Projects
@@ -55,18 +60,42 @@ header{
   background: #61F2C2;
 }
 .projects a {
-
+  color: #2F3061;
 }
-.projects a {
+.projects .btn {
   color: #f7fff7;
   background: #2f3061;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
+  display: inline-block;
 }
-.projects a:hover {
-  background: rgba(47, 48, 97, 60);
+.projects .btn:hover {
+  background: rgba(47, 48, 97, 80%);
 }
+.project-item{
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+.project-item h3{
+  margin-top: 0;
+}
+
+/* .container-img{
+  width: 200px;
+  margin: 0 auto;
+  border: 2px solid black;
+  float: left;
+}
+
+.container-txt{
+  border: 2px solid black;
+  width: 600px;
+} */
 
 /* Work Experience
 ---------------------------------*/
@@ -78,5 +107,21 @@ header{
 
 /*Contact info*/
 footer{
-  background:#d3f6db;
+  background:#343434;
+  color: #D6E681;
+  text-align: center;
+}
+footer a{
+  color: #D6E681;
+}
+
+.contact-list{
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a{
+  padding: 15px;
+  display: inline-block;
 }
